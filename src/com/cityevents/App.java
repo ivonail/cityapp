@@ -45,7 +45,7 @@ public class App {
         System.out.println("To see upcoming events you can use the number before the city name.");
         int number = 0;
         while ((number <= 0) || number > cities.size()) {
-            System.out.println("Enter the valid number [" + 0 + "-" + cities.size() + "]:");
+            System.out.println("Enter the valid number [" + 1 + "-" + cities.size() + "]:");
             Scanner sc = new Scanner(System.in);
             number = sc.nextInt();
         }
